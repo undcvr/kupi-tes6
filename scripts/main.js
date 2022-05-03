@@ -51,6 +51,7 @@ boobaBtn.click(function() {
     final.css('display', 'flex');
     setTimeout(() => {
         final.css('opacity', '1');
+        booba.css('opacity', '0');
         setTimeout(() => {
             boobaCont.css('display', 'none')
         }, 1010);
